@@ -5,7 +5,6 @@ import cv2
 import sys
 import numpy as np
 import serial
-import time
 
 #ser = serial.Serial('COM16', 115200, timeout=1)
 
@@ -178,7 +177,6 @@ class LaserTracker(object):
             (laserx, lasery) = self.detect(frame)
             sys.stdout.write("(" + str(laserx) + "," + str(lasery) + ")" + "\n")
             #ser.write(str(laserx) + "," + str(lasery) + ",")
-            #time.sleep(0.25)
             self.display(frame)
 
 
