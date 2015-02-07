@@ -7,7 +7,8 @@ Optionally send laser pointer coordinates via serial to Arduino, to control serv
 * pySerial 2.7```(pyserial-2.7.win32.exe)```- Optional
 
 ## Quick Start
-Must have USB or laptop webcam connecte
+Must have USB or laptop webcam connected
+
 ```python track_laser.py```
 
 ## Use with Arduino
