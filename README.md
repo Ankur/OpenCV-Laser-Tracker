@@ -12,7 +12,7 @@ Current
 ```python track_laser.py```
 
 ## Use with Arduino
-* Remove ```#``` from lines ```10``` and ```180``` in ```track_laser.py```
+* Remove ```#``` from lines ```9``` and ```179``` in ```track_laser.py```
 * Replace ```COM16``` with your Arduino device port
 * Upload ```ArduinoParser.ino``` sketch to Arduino and keep cable connected to computer
 * Run ```python track_laser.py```
