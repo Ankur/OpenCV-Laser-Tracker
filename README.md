@@ -1,5 +1,5 @@
 # OpenCV-Laser-Tracker
-Track a laser pointer with OpenCV in Python 
+Track a laser pointer with OpenCV in Python using a USB or laptop webcam.
 Optionally send laser pointer coordinates via serial to Arduino, to control servos etc.
 
 * Python 2.7.5```(python-2.7.5.msi)```
@@ -7,8 +7,6 @@ Optionally send laser pointer coordinates via serial to Arduino, to control serv
 * pySerial 2.7```(pyserial-2.7.win32.exe)```- Optional
 
 ## Quick Start
-Must have USB or laptop webcam connected
-
 ```python track_laser.py```
 
 ## Use with Arduino
