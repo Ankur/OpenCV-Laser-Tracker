@@ -11,7 +11,7 @@ Optionally send laser pointer coordinates via serial to Arduino, to control serv
 ```python track_laser.py```
 
 ## Use with Arduino
-* Remove comments from lines ```10``` and ```180```
+* Remove comments from lines ```10``` and ```180``` from ```track_laser.py```
 * Replace ```COM16``` with your Arduino device port
 * Upload ```ArduinoParser.ino``` sketch to Arduino and keep cable connected to computer
 * Run ```python track_laser.py```
