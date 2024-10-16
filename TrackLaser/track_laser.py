@@ -133,7 +133,6 @@ class LaserTracker(object):
 
         laserx=cv.Round((rightmost+leftmost)/2)
         lasery=cv.Round((bottommost+topmost)/2)
-        #return (leftmost,rightmost,topmost,bottommost)
 
 
         return laserx, lasery
